@@ -1,8 +1,27 @@
-学习笔记
+package Week_03;//Given a collection of distinct integers, return all possible permutations.
+//
+// Example: 
+//
+// 
+//Input: [1,2,3]
+//Output:
+//[
+//  [1,2,3],
+//  [1,3,2],
+//  [2,1,3],
+//  [2,3,1],
+//  [3,1,2],
+//  [3,2,1]
+//]
+// 
+// Related Topics 回溯算法
 
-回溯通用模板，可以通过增加参数配合for循环控制选取子问题范围。    
 
-```java
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
+//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     private List<List<Integer>> res = new ArrayList<>();
 
@@ -29,9 +48,4 @@ class Solution {
         }
     }
 }
-
-```
-
-P.S. 看国际站discuss评论吐槽简直每日欢乐源泉
-
-下周继续~
+//leetcode submit region end(Prohibit modification and deletion)
